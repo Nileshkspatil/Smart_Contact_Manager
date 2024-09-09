@@ -1,1 +1,50 @@
-#smart contact manager
+# SmartContactManager
+
+
+## Introduction
+SmartContactManager is a web-based application designed to help users manage their contacts efficiently. It allows users to store, update, and delete contact information while providing a clean and user-friendly interface.
+
+## Features
+- User authentication and registration.
+- Add, update, and delete contacts.
+- Manage a personal contact list with ease.
+- Mobile-friendly and responsive design.
+  
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Nileshkspatil/Smart_Contact_Manager.git
+
+2. Navigate into the Project Directory:  cd Smart_Contact_Manager
+
+3. Install Dependencies: mvn clean install
+
+4. Run the Application: mvn spring-boot:run
+
+5. Access the Application: http://localhost:8080
+
+## Usage
+1. **Register or Log in:**
+   - Create an account by registering with an email address.
+   - Log in using your credentials to access the contact management dashboard.
+
+2. **Managing Contacts:**
+   - Add new contacts by providing name, email, phone number, and any other details.
+   - View the list of your saved contacts.
+   - Edit or delete existing contacts as needed.
+
+3. **User Features:**
+   - Each user has their own contact list.
+   - Contacts can be updated or deleted at any time.
+
+## Technologies Used
+- **Backend**: Java, Spring Boot
+- **Frontend**: Thymeleaf, HTML, CSS, Javascript
+- **Database**: MySQL
+- **Build Tool**: Maven
+
+
+
+
+
